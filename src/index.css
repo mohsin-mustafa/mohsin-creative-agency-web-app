@@ -1,0 +1,37 @@
+:root {
+    --body_background: white;
+    --body_color: black;
+    --link_color: navy;
+}
+
+[data-theme="dark"] {
+    --body_background: #282c39;
+    --body_color: white;
+    --link_color: cyan;
+}
+  
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+
+.slick-prev:before {
+    display: none !important;
+}
+
+
+.slick-next:before {
+    display: none !important;
+}
+
+
+
+.slick-dots.li.button li.slick-active div {
+    background-color: #FFCC00 !important;
+    border-radius: 2px;
+  }
