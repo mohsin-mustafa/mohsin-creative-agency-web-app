@@ -1,12 +1,10 @@
 import React from 'react'
 import heroImage from "../../../assests/New folder/image.webp";
 import heroImage1 from "../../../assests/New folder/bg-image-1.png";
-import GetStartedButton from '../heroSection/getStartedButton';
+import GetStartedButton from './getStartedButton';
 
 const FirstSection = () => {
     return (
-
-
 
 
 
