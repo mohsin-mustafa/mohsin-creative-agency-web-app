@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Navbar from '../../components/navbar/navbar';
+// import Navbar from '../../components/navbar/navbar';
 import FirstSection from "./FirstSection/firstSection";
 // import HeroSection from './heroSection/heroSection';
 
@@ -18,7 +18,7 @@ import FrequentlyAsked from './frequently/frequentlyAsked';
 // import FrequentlyAskedQuestions from './frequentlyAskedQuestionSection/frequentlyAskedQuestions';
 import Testimonial from './testimonialSection/testimonial';
 
-import StartNewProject from '../../components/newProject/newProject';
+import NewProject from '../../components/newProject/newProject';
 import MohsinFooter from '../../components/mohsinFooter/mohsinFooter';
 
 
@@ -32,14 +32,14 @@ export default function LandingPage() {
   return (
     <div >
 
-      <Navbar  />
+      {/* <Navbar  /> */}
       <FirstSection />
       {/* <HeroSection /> */}
       <OurServices />
       <OurDocumentation />
       <SirNaveed />
       <CustomerSatisfaction />
-{/* <Customer /> */}
+      {/* <Customer /> */}
 
       <WorkingSpace />
 
@@ -48,7 +48,7 @@ export default function LandingPage() {
       <FrequentlyAsked />
       {/* <FrequentlyAskedQuestions /> */}
       <Testimonial />
-      <StartNewProject />
+      <NewProject />
       <MohsinFooter />
 
       {/* <MohsinButton /> */}

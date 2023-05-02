@@ -6,21 +6,25 @@
 import React, { useState } from 'react'
 import Logo from "../../assests/logo.svg";
 import { AiOutlineMenu } from "react-icons/ai";
-import { AiOutlineClose } from "react-icons/ai";
-import { FaFacebook } from "react-icons/fa";
-import { BsGithub } from "react-icons/bs";
-import { ImLinkedin2 } from "react-icons/im";
-import { GrSkype } from "react-icons/gr";
+// import { AiOutlineClose } from "react-icons/ai";
+// import { FaFacebook } from "react-icons/fa";
+// import { BsGithub } from "react-icons/bs";
+// import { ImLinkedin2 } from "react-icons/im";
+// import { GrSkype } from "react-icons/gr";
 // import { BsCloudMoonFill } from "react-icons/bs";
 // import LandingPage from '../../modules/landingPage/landingPage';
+import { Link } from 'react-router-dom';
 
 export default function Navbar() {
     const [showTabs, setShowTabs] = useState()
 
+
+    
+
     function toggleTabs() {
         setShowTabs(!showTabs);
       }
-    const [nav, setNav] = useState(false);
+    // const [nav, setNav] = useState(false);
     // const [isDarkMode, setIsDarkMode] = useState(false);
     // function toggleDarkMode() {
     //     setIsDarkMode(!isDarkMode);
@@ -28,9 +32,10 @@ export default function Navbar() {
     
 
 
-    const handleNav = () => {
-        setNav(!nav);
-    };
+    // const handleNav = () => {
+    //     setNav(!nav);
+    // };
+    
 
     return (
 
@@ -56,19 +61,19 @@ export default function Navbar() {
                             <li className="border-b border-transparent  uppercase hover:border-b hover:border-gray-300
                             text-[#4C40F7] font-[Poppins] font-semibold text-[20px] leading-7  hover:text-[#FCE611] duration-500">
 
-                                <a href={"/"}>Home</a>
+                                <Link to="/">Home</Link>
                             </li>
 
                             <li className="border-b border-transparent  uppercase hover:border-b hover:border-gray-300
                             text-[#6B6B6B] font-[Poppins] font-semibold text-[20px] leading-7 hover:text-[#FCE611] duration-500">
 
-                                <a href={"/works"}>Works</a>
+                                <Link to="/works">Works</Link>
                             </li>
 
                             <li className="border-b border-transparent  uppercase hover:border-b hover:border-gray-300
                             text-[#6B6B6B] font-[Poppins] font-semibold text-[20px] leading-7 hover:text-[#FCE611] duration-500">
 
-                                <a href={"/about"}>About</a>
+                                <Link to="/about">About</Link>
                             </li>
                             {/* <li className="border-b border-transparent ml-10 text-sm uppercase hover:border-b hover:border-gray-300">
 
@@ -79,7 +84,7 @@ export default function Navbar() {
                         {/* Mobile Nav Hamburger */}
                         {/* <div onClick={handleNav} className="md:hidden"> */}
                         <div onClick={toggleTabs} className="md:hidden">
-                            <AiOutlineMenu size="20" />
+                            <AiOutlineMenu size="20" className='mr-5' />
 
                         </div>
                     </div>

@@ -11,7 +11,7 @@ export default function CustomerSatisfaction() {
                 <div className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2    gap-10 md:gap-20 lg:gap-10    '>
                 {/* <div className='flex flex-wrap    gap-10     '> */}
 
-                    <div className='cursor-pointer mx-auto md:mx-0  px-3 md:px-0  lg:w-full xl:w-[270px]  h-[300px] bg-[#FFFFFF] rounded-[20px] mt-[155px]  shadow-[#4C40F7] hover:shadow-custom-box-shadow-customer '>
+                    <div className='cursor-pointer mx-auto md:mx-0  px-3 md:px-y0  lg:w-full xl:w-[270px]  h-[300px] bg-[#FFFFFF] rounded-[20px] mt-[155px]  shadow-[#4C40F7] hover:shadow-custom-box-shadow-customer '>
                         <p className='mt-[72px]  text-[#4C40F7] font-[Poppins] font-semibold  text-[56px] leading-[72px] tracking-[-0.4px] '>70K+</p>
                         <p className='mt-4  mx-auto md:mx-[28px] max-w-[214px]  mb-[72px] text-[#111029] font-[Poppins] font-normal text-[18px]  leading-8  '>We have more than customers</p>
                     </div>

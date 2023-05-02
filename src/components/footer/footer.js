@@ -3,6 +3,7 @@ import BsFacebook from "../../assests/BsFacebook.svg";
 import BsInstagram from "../../assests/BsInstagram.svg";
 import BsLinkdin from "../../assests/BsLinkdin.svg";
 import BsTwitter from "../../assests/BsTwitter.svg";
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
     return (
@@ -18,19 +19,19 @@ export default function Footer() {
             <div className='flex justify-center items-start  mt-[52px] mb-[68px]  '>
                 <ul className=" flex    text-[#ABAFC7] font-[Poppins] font-medium  text-[16px] leading-6 hover:text-lg  ">
                     <li>
-                        <a href="#" className="mr-4 hover:underline hover:text-[#FCE611]  md:mr-6 ">Home</a>
+                        <Link to="/" className="mr-4 hover:underline hover:text-[#FCE611]  md:mr-6 ">Home</Link>
                     </li>
                     <li>
-                        <a href="#" className="mr-4 hover:underline hover:text-[#FCE611] md:mr-6 ">Works</a>
+                        <Link to="works" className="mr-4 hover:underline hover:text-[#FCE611] md:mr-6 ">Works</Link>
                     </li>
                     <li>
-                        <a href="#" className="mr-4 hover:underline hover:text-[#FCE611] md:mr-6">About</a>
+                        <Link to="about" className="mr-4 hover:underline hover:text-[#FCE611] md:mr-6">About</Link>
                     </li>
                     <li>
-                        <a href="#" className="mr-4 hover:underline hover:text-[#FCE611] md:mr-6 ">Pricing</a>
+                        <Link to="/" className="mr-4 hover:underline hover:text-[#FCE611] md:mr-6 ">Pricing</Link>
                     </li>
                     <li>
-                        <a href="#" className="hover:underline hover:text-[#FCE611]">About</a>
+                        <Link to="/" className="hover:underline hover:text-[#FCE611]">About</Link>
                     </li>
                 </ul>
             </div>

@@ -3,10 +3,10 @@ import React from 'react'
 import emailIcon from "../../assests/emailIcon.svg";
 import footerBgImg from "../../assests/footerBgImage.png";
 
-export default function StartNewProject() {
+export default function NewProject() {
     return (
         <div className='relative'>
-            <div className=' container max-w-[1120px] mx-auto px-5  mt-[200px]'>
+            <div className=' container max-w-[1160px] mx-auto px-5  mt-[200px]'>
                 <div class="max-w-[1120px]   h-[340px]  bg-[#FFCC00]  mb-[200px]   rounded-[20px] ">
                     <div className='text-[#FFFFFF] font-[Poppins] font-medium  text-[16px] leading-6 pt-16'>
                         Are You Ready For
