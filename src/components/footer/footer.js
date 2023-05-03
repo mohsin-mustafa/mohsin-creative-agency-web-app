@@ -22,25 +22,25 @@ export default function Footer() {
                         <Link to="/" className="mr-4 hover:underline hover:text-[#FCE611]  md:mr-6 ">Home</Link>
                     </li>
                     <li>
-                        <Link to="works" className="mr-4 hover:underline hover:text-[#FCE611] md:mr-6 ">Works</Link>
+                        <Link to="/works" className="mr-4 hover:underline hover:text-[#FCE611] md:mr-6 ">Works</Link>
                     </li>
                     <li>
-                        <Link to="about" className="mr-4 hover:underline hover:text-[#FCE611] md:mr-6">About</Link>
+                        <Link to="/about" className="mr-4 hover:underline hover:text-[#FCE611] md:mr-6">About</Link>
                     </li>
                     <li>
                         <Link to="/" className="mr-4 hover:underline hover:text-[#FCE611] md:mr-6 ">Pricing</Link>
                     </li>
                     <li>
-                        <Link to="/" className="hover:underline hover:text-[#FCE611]">About</Link>
+                        <Link to="/about" className="hover:underline hover:text-[#FCE611]">About</Link>
                     </li>
                 </ul>
             </div>
             <div className='flex   items-start space-x-7 md:space-x-4 mx-auto md:mx-0   mt-0 md:mt-11  mb-[60px] '>
-                <a href=""> <img src={BsFacebook} alt="" className='h-10 w-10' /></a>
+                <Link to="/"> <img src={BsFacebook} alt="" className='h-10 w-10' /></Link>
 
-                <a href=""><img src={BsInstagram} alt="" className='h-10 w-10' /></a>
+                <Link to="/"><img src={BsInstagram} alt="" className='h-10 w-10' /></Link>
 
-                <a href=""><img src={BsLinkdin} alt="" className='h-10 w-10' /></a>
+                <Link to="/"><img src={BsLinkdin} alt="" className='h-10 w-10' /></Link>
 
                 <a href=""><img src={BsTwitter} alt="" className='h-10 w-10' /> </a>
             </div>

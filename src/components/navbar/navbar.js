@@ -19,23 +19,23 @@ export default function Navbar() {
     const [showTabs, setShowTabs] = useState()
 
 
-    
+
 
     function toggleTabs() {
         setShowTabs(!showTabs);
-      }
+    }
     // const [nav, setNav] = useState(false);
     // const [isDarkMode, setIsDarkMode] = useState(false);
     // function toggleDarkMode() {
     //     setIsDarkMode(!isDarkMode);
     //   }
-    
+
 
 
     // const handleNav = () => {
     //     setNav(!nav);
     // };
-    
+
 
     return (
 
@@ -43,7 +43,7 @@ export default function Navbar() {
         // <div className={isDarkMode ? "dark-mode" : ""}>
 
         <div>
-            
+
             <div className="sticky top-0 w-full h-20  z-[100%]  container max-w-[1160px] mx-auto  mt-7">
 
 
@@ -51,8 +51,8 @@ export default function Navbar() {
                     <a href={"/"}>
                         <img src={Logo}
                             alt=""
-                            
-                            className=" rounded-full   " /> 
+
+                            className=" rounded-full   " />
                     </a>
 
 
@@ -89,14 +89,14 @@ export default function Navbar() {
                         </div>
                     </div>
 
-           {/* <BsCloudMoonFill onClick={toggleDarkMode} /> */}
+                    {/* <BsCloudMoonFill onClick={toggleDarkMode} /> */}
 
-                    
 
-               
+
+
                     <div className="hidden md:block px-[35px]   rounded-xl  py-[19px] bg-[#4C40F7] hover:bg-red-500 focus:ring-4 focus:outline-none focus:ring-blue-300 "
-                    
-                    style={{filter: 'drop-shadow(-15px 10px 30px rgba(76, 64, 247, 0.25))'}}
+
+                        style={{ filter: 'drop-shadow(-15px 10px 30px rgba(76, 64, 247, 0.25))' }}
                     >
                         <button type="button" className="text-[#FFFFFF]  font-[Poppins] font-semibold text-[16px] leading-[26px]  text-center inline-flex items-center ">
                             Contact us
@@ -105,26 +105,32 @@ export default function Navbar() {
                     </div>
 
 
-             
+
 
                 </div>
             </div>
 
-            
+
             {/* Mobile Nav */}
 
             {showTabs ? (
-        <div className='flex justify-center md:hidden'>
-          <ul className=' text-[#6B6B6B] flex flex-col items-center gap-10'>
-            <li className='font-semibold text-sm' >Home</li>
-            <li className='font-semibold text-sm' >Works</li>
-            <li className='font-semibold text-sm '>About</li>
-            <div className='bg-[#4C40F7] cursor-pointer rounded-xl shadow-xl shadow-[#4C40F740] px-5 py-3 text-white'>Contact us</div>
-            <li></li>
-          </ul>
-        </div>)
-        : null
-      }
+                <div className='flex justify-center md:hidden'>
+                    <ul className=' text-[#6B6B6B] flex flex-col items-center gap-10'>
+                        <li className='font-semibold text-sm' >
+                            <Link to="/">Home</Link>
+                        </li>
+                        <li className='font-semibold text-sm' >
+                            <Link to="/works">Works</Link>
+                        </li>
+                        <li className='font-semibold text-sm '>
+                            <Link to="/about">About</Link>
+                        </li>
+                        <div className='bg-[#4C40F7] cursor-pointer rounded-xl shadow-xl shadow-[#4C40F740] px-5 py-3 text-white'>Contact us</div>
+                        <li></li>
+                    </ul>
+                </div>)
+                : null
+            }
 
 
 
@@ -198,8 +204,8 @@ export default function Navbar() {
 
 
 
-                   {/* <LandingPage /> this is called in bottom*/}
-        {/* </div> */}
+            {/* <LandingPage /> this is called in bottom*/}
+            {/* </div> */}
 
 
         </div>

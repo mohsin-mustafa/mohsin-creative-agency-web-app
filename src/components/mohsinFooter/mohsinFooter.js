@@ -3,6 +3,7 @@ import logo from "../../assests/logo.svg";
 import footerMapImage from "../../assests/footerMapImage.png";
 import footerLine from "../../assests/footerLine.png";
 import Footer from '../footer/footer';
+import { Link } from 'react-router-dom';
 
 
 export default function MohsinFooter() {
@@ -21,9 +22,9 @@ export default function MohsinFooter() {
 
 
             {/* <div className='flex justify-start items-start'> */}
-            <a href="/">
+            <Link to="/">
               <img src={logo} alt="" className='mt-[70px]  -ml-7 ' />
-            </a>
+            </Link>
             {/* </div> */}
             <p className="max-w-[360px] text-[#FFFFFF] text-left font-[Poppins] font-medium  text-[16px] leading-6 opacity-75">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor

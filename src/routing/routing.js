@@ -14,7 +14,7 @@ import Navbar from "../components/navbar/navbar";
 import LandingPage from '../modules/landingPage/LandingPage';
 // import Home from '../modules/landingPage/LandingPage';
 import About from "../components/about/about";
-import Works from "../components/about/about";
+import Works from "../components/works/works";
 
 const router = createBrowserRouter([
   {
