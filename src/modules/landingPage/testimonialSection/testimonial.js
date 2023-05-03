@@ -5,7 +5,7 @@ export default function Testimonial() {
     return (
 
         <div className='bg-[#F9F9FD]'>
-            <div class="container max-w-[1160px] mx-auto  md:mx-auto   ">
+            <div class="container  max-w-[1120px] mx-auto  md:mx-auto   ">
                 <div className='text-[#FF2D59] font-[Poppins] font-semibold  text-[20px] leading-7 pt-[100px] pb-[20px]'>
                     Testimonials
                 </div>

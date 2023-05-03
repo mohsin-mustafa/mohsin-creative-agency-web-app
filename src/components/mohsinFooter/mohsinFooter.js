@@ -11,7 +11,7 @@ export default function MohsinFooter() {
 
     <div className='bg-[#00113B]    '>
 
-      <div className='container max-w-[1160px] mx-auto px-5   pt-[200px]  '>
+      <div className='container max-w-[1140px] mx-auto px-5 xl:px-0  pt-[200px]  '>
 
 
 
@@ -144,7 +144,7 @@ export default function MohsinFooter() {
 
         <div className=' mt-11'>
 
-          <img src={footerLine} alt="" className=' ' />
+          <img src={footerLine} alt="" className='w-full ' />
         </div>
 
 

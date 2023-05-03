@@ -9,7 +9,7 @@ export default function WorkingSpace() {
     return (
         <div className='relative '>
 
-            <div class="container max-w-[1160px] mx-auto px-5 mt-20 xl:mt-[200px]  ">
+            <div class="container  max-w-[1120px] mx-auto px-5 xl:px-0 mt-20 xl:mt-[200px]  ">
                 <div className='text-[#FF2D59] font-[Poppins] font-semibold  text-[20px] leading-7 pb-[20px]'>
                     Working space
                 </div>

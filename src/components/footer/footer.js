@@ -9,12 +9,15 @@ export default function Footer() {
     return (
 
         <div className='flex flex-col md:flex-row justify-between  '>
-            <div className='flex justify-center items-start mt-[52px] mb-[68px] '>
-                <span class=" sm:text-center dark:text-gray-400
+
+            <Link to="/">
+                <div className='flex justify-center items-start mt-[52px] mb-[68px] '>
+                    <span class=" sm:text-center dark:text-gray-400
                        text-[#ABAFC7] font-[Poppins] font-medium  text-[16px] leading-6 hover:text-[#FF2D59]  ">©2023
-                    <a href="#" className="hover:underline hover:text-[#FCE611]"> Creative Agency™</a>
-                </span>
-            </div>
+                        <a href="#" className="hover:underline hover:text-[#FCE611]"> Creative Agency™</a>
+                    </span>
+                </div>
+            </Link>
 
             <div className='flex justify-center items-start  mt-[52px] mb-[68px]  '>
                 <ul className=" flex    text-[#ABAFC7] font-[Poppins] font-medium  text-[16px] leading-6 hover:text-lg  ">
@@ -42,7 +45,7 @@ export default function Footer() {
 
                 <Link to="/"><img src={BsLinkdin} alt="" className='h-10 w-10' /></Link>
 
-                <a href=""><img src={BsTwitter} alt="" className='h-10 w-10' /> </a>
+                <Link to="/"><img src={BsTwitter} alt="" className='h-10 w-10' /> </Link>
             </div>
         </div>
 

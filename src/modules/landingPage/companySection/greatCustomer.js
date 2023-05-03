@@ -5,7 +5,7 @@ import CompanyLogos from './companyLogos';
 export default function GreatCustomer() {
   return (
 
-    <div class="container max-w-[1160px] mx-auto px-5  mt-[100px] xl:mt-[200px] ">
+    <div class="container   max-w-[1120px] mx-auto px-5 xl:px-0  mt-[100px] xl:mt-[200px] ">
       <div className='text-[#FF2D59] font-[Poppins] font-semibold  text-[20px] leading-7 pb-[20px] '>
         Some of Our Great Customers
       </div>

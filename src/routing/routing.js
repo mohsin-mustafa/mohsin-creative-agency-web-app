@@ -46,15 +46,15 @@ const router = createBrowserRouter([
 
 
 function Routing() {
-    return (
-        <div>
-          
-
-          <RouterProvider router={router} />
+  return (
+    <div>
 
 
-        </div>
-    );
+      <RouterProvider router={router} />
+
+
+    </div>
+  );
 }
 export default Routing;
 

@@ -4,7 +4,7 @@ export default function CustomerSatisfaction() {
     return (
 
         <div className='bg-[#F9F9FD]'>
-            <div className="  container max-w-[1160px] mx-auto px-5  flex flex-col   md:flex-row  ">
+            <div className="  container max-w-[1120px] mx-auto px-5 xl:px-0  flex flex-col   md:flex-row  ">
                 {/* left */}
                 {/* <div className=" flex flex-col space-y-12 md:w-1/2"> */}
 

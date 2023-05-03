@@ -10,7 +10,7 @@ import star from "../../../assests/star.svg";
 
 export default function TestimonialCards() {
     return (
-        <div className='px-0 md:px-5 lg:px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-8 place-items-center mt-[100px] pb-[100px]'>
+        <div className='px-0 md:px-5 lg:px-5 xl:px-0 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-8 place-items-center mt-[100px] '>
     {/* // <div className='  flex flex-col-1 flex-wrap justify-center items-center md:flex-cols-2 lg:flex-cols-3  gap-8 mt-[60px] pb-[100px]' > */}
             {/* Grid 1 */}
             <div className=" bg-[#FFFFFF] rounded-[20px] mb-[60px] shadow-custom-box-shadow-testimonial w-[300px] md:w-full xl:w-[352px] h-[357px] lg:h-[370px] xl:h-[357px] mx-auto md:mx-0">
@@ -104,7 +104,7 @@ export default function TestimonialCards() {
                 </div>
             </div>
             {/* Grid 4 */}
-            <div className="bg-[#FFFFFF]  rounded-[20px] mb-[60px]  hover:shadow-custom-box-shadow-testimonial w-[300px] md:w-full  xl:w-[352px] h-[357px] lg:h-[370px] xl:h-[357px]  mx-auto md:mx-0">
+            <div className="bg-[#FFFFFF]  rounded-[20px] mb-[100px]   hover:shadow-custom-box-shadow-testimonial w-[300px] md:w-full  xl:w-[352px] h-[357px] lg:h-[370px] xl:h-[357px]  mx-auto md:mx-0">
 
 
                 <div className="flex flex-col items-center   ">
@@ -136,7 +136,7 @@ export default function TestimonialCards() {
 
 
             {/* Grid 5 */}
-            <div className="bg-[#FFFFFF]  rounded-[20px] mb-[60px]  hover:shadow-custom-box-shadow-testimonial w-[300px] md:w-full xl:w-[352px] h-[357px] lg:h-[370px] xl:h-[357px]  mx-auto md:mx-0">
+            <div className="bg-[#FFFFFF]  rounded-[20px] mb-[100px]   hover:shadow-custom-box-shadow-testimonial w-[300px] md:w-full xl:w-[352px] h-[357px] lg:h-[370px] xl:h-[357px]  mx-auto md:mx-0">
 
 
                 <div className="flex flex-col items-center    ">
@@ -166,7 +166,7 @@ export default function TestimonialCards() {
                 </div>
             </div>
             {/* Grid 6 */}
-            <div className="bg-[#FFFFFF] rounded-[20px] mb-[60px]  hover:shadow-custom-box-shadow-testimonial w-[300px] md:w-full xl:w-[352px] h-[357px] lg:h-[370px] xl:h-[357px]  mx-auto md:mx-0">
+            <div className="bg-[#FFFFFF] rounded-[20px] mb-[100px]  hover:shadow-custom-box-shadow-testimonial w-[300px] md:w-full xl:w-[352px] h-[357px] lg:h-[370px] xl:h-[357px]  mx-auto md:mx-0">
 
 
                 <div className="flex flex-col items-center   ">

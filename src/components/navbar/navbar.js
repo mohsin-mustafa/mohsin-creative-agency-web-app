@@ -44,7 +44,7 @@ export default function Navbar() {
 
         <div>
 
-            <div className="sticky top-0 w-full h-20  z-[100%]  container max-w-[1160px] mx-auto  mt-7">
+            <div className="sticky top-0 w-full h-20  z-[100%]  container max-w-[1160px] mx-auto px-5 mt-7">
 
 
                 <div className="flex  justify-between items-center w-full h-full  py-10  ">
@@ -52,7 +52,7 @@ export default function Navbar() {
                         <img src={Logo}
                             alt=""
 
-                            className=" rounded-full   " />
+                            className=" rounded-full -ml-4  " />
                     </a>
 
 
@@ -93,16 +93,20 @@ export default function Navbar() {
 
 
 
-
                     <div className="hidden md:block px-[35px]   rounded-xl  py-[19px] bg-[#4C40F7] hover:bg-red-500 focus:ring-4 focus:outline-none focus:ring-blue-300 "
 
                         style={{ filter: 'drop-shadow(-15px 10px 30px rgba(76, 64, 247, 0.25))' }}
                     >
+                        {/* <Link to="/"> */}
+
                         <button type="button" className="text-[#FFFFFF]  font-[Poppins] font-semibold text-[16px] leading-[26px]  text-center inline-flex items-center ">
                             Contact us
                             {/* <svg aria-hidden="true" class="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg> */}
                         </button>
+                        {/* </Link> */}
+
                     </div>
+
 
 
 
@@ -125,7 +129,9 @@ export default function Navbar() {
                         <li className='font-semibold text-sm '>
                             <Link to="/about">About</Link>
                         </li>
-                        <div className='bg-[#4C40F7] cursor-pointer rounded-xl shadow-xl shadow-[#4C40F740] px-5 py-3 text-white'>Contact us</div>
+                        <Link to="/">
+                            <div className='bg-[#4C40F7] cursor-pointer rounded-xl shadow-xl shadow-[#4C40F740] px-5 py-3 text-white'>Contact us</div>
+                        </Link>
                         <li></li>
                     </ul>
                 </div>)

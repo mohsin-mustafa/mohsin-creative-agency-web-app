@@ -75,8 +75,10 @@ const SliderItems = () => {
 
     return (
 
-        <div className="bg-[#FE9602] relative  mt-[100px] xl:mt-[200px] ">
-            <div className="max-w-[70rem] mx-auto relative py-[100px]">
+
+        <div className="bg-[#FE9602] relative">
+        <div  className=" relative max-w-[77.7%] mx-auto container mt-[100px] xl:mt-[200px] ">
+            <div className=" relative py-[100px]">
                 <Slider ref={slider} {...settings} className="">
 
 
@@ -115,7 +117,7 @@ const SliderItems = () => {
                         <p className="max-w-[272px] text-[#FFFFFF] font-semibold text-xl leading-7 text-center mx-auto mb-6">CEO & Head of Product</p>
                     </div>
 
-                 
+
 
                 </Slider>
 
@@ -133,19 +135,20 @@ const SliderItems = () => {
 
                 {/* Practice 2 */}
 
-                <button className='absolute top-[50%] left-[5%] rounded-full w-11 h-11 bg-white hover:bg-[#4C40F7] flex justify-center items-center' onClick={() => slider?.current?.slickPrev()}><img src={sliderarrow1} alt='arrow' /></button>
-                <button className='absolute top-[50%] right-[5%] rounded-full w-11 h-11 bg-white hover:bg-[#4C40F7] flex justify-center items-center ' onClick={() => slider?.current?.slickNext()}><img src={sliderarrow2} alt='arrow' /></button>
+                <button className='absolute top-[50%] left-[0%] rounded-full w-11 h-11 bg-white hover:bg-[#4C40F7] flex justify-center items-center' onClick={() => slider?.current?.slickPrev()}><img src={sliderarrow1} alt='arrow' /></button>
+                <button className='absolute top-[50%] right-[0%] rounded-full w-11 h-11 bg-white hover:bg-[#4C40F7] flex justify-center items-center ' onClick={() => slider?.current?.slickNext()}><img src={sliderarrow2} alt='arrow' /></button>
 
 
 
-
+                {/* <div className=''> */}
+                {/* </div> */}
             </div>
 
             {/* <img src={image} alt="" className="absolute h-[500px] right-0" /> */}
 
-            <div className=''>
+
+        </div>
                 <img className='absolute -z-50 w-96 h-[900px] top-[25%] right-0' src={image} alt='accordion image top' />
-            </div>
         </div>
     );
 };

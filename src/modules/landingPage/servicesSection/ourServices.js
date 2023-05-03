@@ -7,7 +7,7 @@ export default function OurServices() {
   return (
     <div className='relative '    >
 
-      <div class="container max-w-[1160px] mx-auto  mt-10 xl:mt-0 ">
+      <div class="container  max-w-[1120px] mx-auto  mt-10 lg:mt-0 xl:mt-[50px] ">
         <div className='text-[#FF2D59] font-[Poppins] font-semibold  text-[20px] leading-7 pb-[20px]'>
           Our Services
         </div>

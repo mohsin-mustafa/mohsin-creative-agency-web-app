@@ -18,7 +18,7 @@ export default function OurServicesCard() {
 
     // <div className='flex flex-col md:flex-row  mt-[60px] pb-[400px] gap-8 bg-slate-500'>
 
-    <div className='  grid grid-col-1 px-0 md:px-5 lg:px-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 place-items-center  mt-[60px]  gap-8'>
+    <div className='  grid grid-col-1 px-0 md:px-5 xl:px-0 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 place-items-center  mt-[60px]  gap-8'>
      {/* <div className='  flex flex-col-1 flex-wrap justify-center items-center md:flex-cols-2 lg:flex-cols-3 mt-[60px] gap-8'> */}
       <div className='border shadow-custom-box-shadow-service w-[300px] md:w-full  xl:w-[352px] h-[458px]     bg-[#4C40F7]  cursor-pointer rounded-[20px]  '>
       <div className='flex justify-center'> <img src={cardlogo1} alt="" className='mt-11 w-24 h-24 ' /></div>

@@ -30,7 +30,7 @@ import MohsinFooter from '../../components/mohsinFooter/mohsinFooter';
 
 export default function LandingPage() {
   return (
-    <div >
+    <div className=''>
 
       {/* <Navbar  /> */}
       <FirstSection />

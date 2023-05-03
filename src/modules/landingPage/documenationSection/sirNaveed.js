@@ -14,7 +14,7 @@ export default function SirNaveed() {
         style={{ 
           backgroundImage: `url(${documentBgImg})` }}
       >
-        <div className='max-w-[70rem] mx-auto xl:pb-[210px]  pb-12 lg:pb-[100px] px-0 md:px-6 lg:px-6 xl:px-0'>
+        <div className='max-w-[70rem] mx-auto xl:pb-[210px] container  pb-12 lg:pb-[100px] px-0 md:px-6 lg:px-6 xl:px-0'>
           {/* <img src={sirNaveed} alt='img not found' /> */}
           {/* <img src={mohsin} alt='img not found' className='rounded-xl' /> */}
           {/* <img src={sir} alt='img not found' className='rounded-xl' /> */}
