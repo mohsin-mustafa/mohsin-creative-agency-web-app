@@ -2,11 +2,12 @@
 
 
 
-
 import React, { useState } from 'react'
 import Logo from "../../assests/logo.svg";
 import { AiOutlineMenu } from "react-icons/ai";
-// import { AiOutlineClose } from "react-icons/ai";
+import { AiOutlineClose } from "react-icons/ai";
+import menu from "../../assests/menu.svg";
+import close from "../../assests/close.svg";
 // import { FaFacebook } from "react-icons/fa";
 // import { BsGithub } from "react-icons/bs";
 // import { ImLinkedin2 } from "react-icons/im";
@@ -16,22 +17,26 @@ import { AiOutlineMenu } from "react-icons/ai";
 import { Link } from 'react-router-dom';
 
 export default function Navbar() {
+
+
+    {/* Mobile Nav Hamburger 2 */ }
     const [showTabs, setShowTabs] = useState()
 
+  
 
+    {/* Mobile Nav Hamburger 1 */ }
+    // function toggleTabs() {
+    //     setShowTabs(!showTabs);
+    // }
 
-
-    function toggleTabs() {
-        setShowTabs(!showTabs);
-    }
+    {/* Mobile Nav Hamburger 1 */ }
     // const [nav, setNav] = useState(false);
     // const [isDarkMode, setIsDarkMode] = useState(false);
     // function toggleDarkMode() {
     //     setIsDarkMode(!isDarkMode);
     //   }
 
-
-
+    {/* Mobile Nav Hamburger 1 */ }
     // const handleNav = () => {
     //     setNav(!nav);
     // };
@@ -75,18 +80,47 @@ export default function Navbar() {
 
                                 <Link to="/about">About</Link>
                             </li>
-                            {/* <li className="border-b border-transparent ml-10 text-sm uppercase hover:border-b hover:border-gray-300">
 
-                                <a href={"/contact"}>Contact</a>
-                            </li> */}
                         </ul>
 
-                        {/* Mobile Nav Hamburger */}
+                        {/* Mobile Nav Hamburger 1 */}
+                        {/* First method */}
                         {/* <div onClick={handleNav} className="md:hidden"> */}
-                        <div onClick={toggleTabs} className="md:hidden">
-                            <AiOutlineMenu size="20" className='mr-5' />
 
+                        {/* Mobile Nav Hamburger 2 */}
+                        {/* Second method */}
+
+                        {/* <div onClick={()=>{setShowTabs(!showTabs)}} className="md:hidden">
+
+                            {
+                                showTabs ? <AiOutlineClose size="20" className='mr-5' /> :
+                                <AiOutlineMenu size="20" className='mr-5' />
+
+                            }
+
+                        </div> */}
+
+                        {/* Mobile Nav Hamburger 3 */}
+                        {/* Third method using Images/icons */}
+
+
+                        <div onClick={() => { setShowTabs(!showTabs) }} className="md:hidden">
+
+                            <img src=
+                                {
+
+                                    showTabs
+                                        ?
+                                        close
+                                        :
+                                        menu
+
+                                }
+                                alt="" size="20" className='mr-5' />
                         </div>
+
+
+
                     </div>
 
                     {/* <BsCloudMoonFill onClick={toggleDarkMode} /> */}
@@ -115,18 +149,19 @@ export default function Navbar() {
             </div>
 
 
-            {/* Mobile Nav */}
+            {/* Mobile Nav 2 */}
+
 
             {showTabs ? (
                 <div className='flex justify-center md:hidden'>
-                    <ul className=' text-[#6B6B6B] flex flex-col items-center gap-10'>
-                        <li className='font-semibold text-sm' >
+                    <ul className='text-[#6B6B6B] flex flex-col items-center gap-10'>
+                        <li className=' text-sm text-[#4C40F7] font-[Poppins] font-semibold  hover:text-[#FCE611] duration-500 ' >
                             <Link to="/">Home</Link>
                         </li>
-                        <li className='font-semibold text-sm' >
+                        <li className=' text-sm text-[#6B6B6B] font-[Poppins] font-semibold  hover:text-[#4C40F7] duration-500' >
                             <Link to="/works">Works</Link>
                         </li>
-                        <li className='font-semibold text-sm '>
+                        <li className='text-sm text-[#6B6B6B] font-[Poppins] font-semibold  hover:text-[#4C40F7] duration-500'>
                             <Link to="/about">About</Link>
                         </li>
                         <Link to="/">
@@ -140,7 +175,7 @@ export default function Navbar() {
 
 
 
-            {/* Mobile Nav */}
+            {/* Mobile Nav 1*/}
             {/* <div className={`${nav ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/70" : ""}`}>
 
                 <div className={`${nav ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:[45%] h-screen bg-white p-10 ease-in duration-500"
