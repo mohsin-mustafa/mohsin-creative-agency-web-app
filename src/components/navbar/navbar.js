@@ -49,7 +49,7 @@ export default function Navbar() {
 
         <div>
 
-            <div className="sticky top-0 w-full h-20  z-[100%]  container max-w-[1160px] mx-auto px-5 mt-7">
+            <div className="sticky top-0 w-full h-20  z-[100%]  container max-w-[1160px] mx-auto px-5 lg:px-8 xl:px-0 mt-7">
 
 
                 <div className="flex  justify-between items-center w-full h-full  py-10  ">
