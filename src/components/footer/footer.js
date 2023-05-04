@@ -20,7 +20,7 @@ export default function Footer() {
             </Link>
 
             <div className='flex justify-center items-start  mt-[52px] mb-[68px]  '>
-                <ul className=" flex    text-[#ABAFC7] font-[Poppins] font-medium  text-[16px] leading-6 hover:text-lg  ">
+                <ul className=" flex    text-[#ABAFC7] font-[Poppins] font-medium text-sm lg:text-[16px] lg:leading-6 hover:text-lg  ">
                     <li>
                         <Link to="/" className="mr-4 hover:underline hover:text-[#FCE611]  md:mr-6 ">Home</Link>
                     </li>
@@ -38,7 +38,7 @@ export default function Footer() {
                     </li>
                 </ul>
             </div>
-            <div className='flex   items-start space-x-7 md:space-x-4 mx-auto md:mx-0   mt-0 md:mt-11  mb-[60px] '>
+            <div className='flex   items-start space-x-7 md:space-x-3 mx-auto md:mx-0   mt-0 md:mt-11  mb-[60px] '>
                 <Link to="/"> <img src={BsFacebook} alt="" className='h-10 w-10' /></Link>
 
                 <Link to="/"><img src={BsInstagram} alt="" className='h-10 w-10' /></Link>

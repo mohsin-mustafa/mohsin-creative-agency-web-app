@@ -22,7 +22,7 @@ export default function Navbar() {
     {/* Mobile Nav Hamburger 2 */ }
     const [showTabs, setShowTabs] = useState()
 
-  
+
 
     {/* Mobile Nav Hamburger 1 */ }
     // function toggleTabs() {
@@ -164,10 +164,17 @@ export default function Navbar() {
                         <li className='text-sm text-[#6B6B6B] font-[Poppins] font-semibold  hover:text-[#4C40F7] duration-500'>
                             <Link to="/about">About</Link>
                         </li>
-                        <Link to="/">
+                        {/* <Link to="/">
                             <div className='bg-[#4C40F7] cursor-pointer rounded-xl shadow-xl shadow-[#4C40F740] px-5 py-3 text-white'>Contact us</div>
-                        </Link>
-                        <li></li>
+                        </Link> */}
+                        <li>
+                            <div className=" px-5 text-[#FFFFFF]  font-[Poppins] font-semibold text-sm  text-center   rounded-xl  py-4 bg-[#4C40F7] hover:bg-red-500 focus:ring-4 focus:outline-none focus:ring-blue-300 "
+
+                                style={{ filter: 'drop-shadow(-15px 10px 30px rgba(76, 64, 247, 0.25))' }}
+                            >
+                                Contact us
+                            </div>
+                        </li>
                     </ul>
                 </div>)
                 : null
