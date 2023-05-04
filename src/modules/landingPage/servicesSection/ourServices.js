@@ -19,7 +19,7 @@ export default function OurServices() {
         <OurServicesCard />
       </div>
 
-      <img src={serviceBgImage} alt="" className='absolute top-[55%] -z-20' />
+      <img src={serviceBgImage} alt="" className='absolute top-[50%] -z-20' />
 
 
     </div>

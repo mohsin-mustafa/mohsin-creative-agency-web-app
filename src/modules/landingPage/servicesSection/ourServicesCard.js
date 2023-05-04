@@ -20,7 +20,7 @@ export default function OurServicesCard() {
 
     <div className='  grid grid-col-1 px-0 md:px-5 xl:px-0 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 place-items-center  mt-[60px]  gap-8'>
      {/* <div className='  flex flex-col-1 flex-wrap justify-center items-center md:flex-cols-2 lg:flex-cols-3 mt-[60px] gap-8'> */}
-      <div className='border shadow-custom-box-shadow-service w-[300px] md:w-full  xl:w-[352px] h-[458px]     bg-[#4C40F7]  cursor-pointer rounded-[20px]  '>
+      <div className=' shadow-custom-box-shadow-service w-[300px] md:w-full  xl:w-[352px] h-[458px]     bg-[#4C40F7]  cursor-pointer rounded-[20px]  '>
       <div className='flex justify-center'> <img src={cardlogo1} alt="" className='mt-11 w-24 h-24 ' /></div>
         <p className='mt-[14px] text-[#FFFFFF] font-[Poppins] font-semibold text-[20px] leading-7 '>Ideate</p>
         <p className='mt-4   text-[#FFFFFF] font-[Poppins] font-normal text-[20px] xl:text-[18px] leading-8 max-w-[292px] mx-auto'>We help you develop creative ideas so that your business can grow more rapidly</p>

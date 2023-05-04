@@ -7,7 +7,7 @@ export default function NewProject() {
     return (
         <div className='relative '>
             <div className=' container max-w-[1120px] mx-auto px-5 xl:px-0  mt-[200px]'>
-                <div class="max-w-full lg:max-w-[900px] mx-auto xl:max-w-[1120px]   h-[340px]  bg-[#FFCC00]  mb-[200px]   rounded-[20px] ">
+                <div class="max-w-full lg:max-w-[950px] mx-auto xl:max-w-[1120px]   h-[340px]  bg-[#FFCC00]  mb-[200px]   rounded-[20px] ">
                     <div className='text-[#FFFFFF] font-[Poppins] font-medium  text-[16px] leading-6 pt-16'>
                         Are You Ready For
                     </div>
@@ -28,7 +28,7 @@ export default function NewProject() {
 
                 </div>
 
-                <div className='z-50 relative -mb-[200px] bg-[#4C40F7] rounded-[20px]   max-w-full lg:max-w-[900px] mx-auto xl:max-w-[1120px] h-[340px]  border border-[#73AD21]'>
+                <div className='z-50 relative -mb-[200px] bg-[#4C40F7] rounded-[20px]   max-w-full lg:max-w-[950px] mx-auto xl:max-w-[1120px] h-[340px]  border border-[#73AD21]'>
                     <div className='text-[#FFFFFF] font-[Poppins] font-medium  text-[16px] leading-6 pt-16'>
                         Get Notified About Project
                     </div>
