@@ -20,7 +20,7 @@ export default function Footer() {
             </Link>
 
             <div className='flex justify-center items-start  mt-[52px] mb-[68px]  '>
-                <ul className=" flex    text-[#ABAFC7] font-[Poppins] font-medium text-sm lg:text-[16px] lg:leading-6 hover:text-lg  ">
+                <ul className=" flex    text-[#ABAFC7] font-[Poppins] font-medium text-base lg:text-[16px] lg:leading-6 hover:text-lg  ">
                     <li>
                         <Link to="/" className="mr-4 hover:underline hover:text-[#FCE611]  md:mr-6 ">Home</Link>
                     </li>

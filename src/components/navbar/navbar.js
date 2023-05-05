@@ -57,26 +57,26 @@ export default function Navbar() {
                         <img src={Logo}
                             alt=""
 
-                            className=" rounded-full -ml-4  " />
+                            className=" rounded-full -ml-4 mt-3 " />
                     </a>
 
 
                     <div>
                         <ul className="hidden md:flex items-center gap-[5.1rem] ">
-                            <li className="border-b border-transparent  uppercase hover:border-b hover:border-gray-300
-                            text-[#4C40F7] font-[Poppins] font-semibold text-[20px] leading-7  hover:text-[#FCE611] duration-500">
+                            <li className="border-b border-transparent   hover:border-b hover:border-gray-300
+                            text-[#4C40F7] font-[Poppins] font-semibold xl:text-[20px] leading-7  hover:text-[#FCE611] duration-500">
 
                                 <Link to="/">Home</Link>
                             </li>
 
-                            <li className="border-b border-transparent  uppercase hover:border-b hover:border-gray-300
-                            text-[#6B6B6B] font-[Poppins] font-semibold text-[20px] leading-7 hover:text-[#FCE611] duration-500">
+                            <li className="border-b border-transparent   hover:border-b hover:border-gray-300
+                            text-[#6B6B6B] font-[Poppins] font-semibold xl:text-[20px] leading-7 hover:text-[#FCE611] duration-500">
 
                                 <Link to="/works">Works</Link>
                             </li>
 
-                            <li className="border-b border-transparent  uppercase hover:border-b hover:border-gray-300
-                            text-[#6B6B6B] font-[Poppins] font-semibold text-[20px] leading-7 hover:text-[#FCE611] duration-500">
+                            <li className="border-b border-transparent   hover:border-b hover:border-gray-300
+                            text-[#6B6B6B] font-[Poppins] font-semibold xl:text-[20px] leading-7 hover:text-[#FCE611] duration-500">
 
                                 <Link to="/about">About</Link>
                             </li>
