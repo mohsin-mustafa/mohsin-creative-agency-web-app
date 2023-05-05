@@ -16,13 +16,13 @@ export default function CustomerSatisfaction() {
 
                         <div className='cursor-pointer mt-[56px] mb-[40px] py-3 sm:py-0 mx-auto md:mx-0 w-[270px] h-auto sm:h-[300px] bg-[#FFFFFF] rounded-[20px]   shadow-[#4C40F7] hover:shadow-custom-box-shadow-customer '>
                             <p className='sm:pt-[72px]  text-[#4C40F7] font-[Poppins] font-semibold  text-[56px] leading-[72px] tracking-[-0.4px] '>70K+</p>
-                            <p className='mt-4  mx-auto md:mx-[28px] max-w-[214px]  text-[#111029] font-[Poppins] font-normal text-xs sm:text-[18px]  leading-8  '>We have more than customers</p>
+                            <p className='mt-5  mx-auto md:mx-[28px] max-w-[214px]  text-[#111029] font-[Poppins] font-normal text-xs sm:text-[18px]  leading-8  '>We have more than customers</p>
                         </div>
 
 
                         <div className=' cursor-pointer py-3 sm:py-0 mx-auto md:mx-0 w-[270px] h-auto sm:h-[300px] bg-[#FFFFFF]  rounded-[20px]  shadow-[#4C40F7] hover:shadow-custom-box-shadow-customer '>
                             <p className='sm:pt-[56px]  text-[#FF2D59] font-[Poppins] font-semibold  text-[56px] leading-[72px] tracking-[-0.4px]'>10M+</p>
-                            <p className='mt-4  mx-auto  max-w-[214px]  text-[#111029] font-[Poppins] font-normal text-xs sm:text-[18px] leading-8  '>People who are helped because of our hard work</p>
+                            <p className='mt-5  mx-auto  max-w-[214px]  text-[#111029] font-[Poppins] font-normal text-xs sm:text-[18px] leading-8  '>People who are helped because of our hard work</p>
 
                         </div>
                       
@@ -31,13 +31,13 @@ export default function CustomerSatisfaction() {
                     <div className='sm:mt-10 mt-0 ' >
                     <div className='mt-10 md:mt-0 cursor-pointer mb-[40px] py-3 sm:py-0 mx-auto md:mx-0 w-[270px] h-auto sm:h-[300px]  bg-[#FFFFFF]  hover:text-teal-100 rounded-[20px]  shadow-[#4C40F7] hover:shadow-custom-box-shadow-customer   '>
                             <p className='sm:pt-[72px] text-[#FF6800] font-[Poppins] font-semibold  text-[56px] leading-[72px] tracking-[-0.4px]' >100+</p>
-                            <p className='mt-4  mx-auto  max-w-[214px]   text-[#111029] font-[Poppins] font-normal  text-xs sm:text-[18px] leading-8  '> Projects we have completed</p>
+                            <p className='mt-5  mx-auto  max-w-[214px]   text-[#111029] font-[Poppins] font-normal  text-xs sm:text-[18px] leading-8  '> Projects we have completed</p>
 
                         </div>
 
                         <div className='cursor-pointer py-3 sm:py-0 mx-auto md:mx-0 w-[270px] h-auto sm:h-[300px] bg-[#FFFFFF]  rounded-[20px] shadow-[#4C40F7] hover:shadow-custom-box-shadow-customer '>
                             <p className='sm:pt-[72px]  text-[#4ADB61] font-[Poppins] font-semibold  text-[56px] leading-[72px] tracking-[-0.4px] '>200+</p>
-                            <p className='mt-4 mx-auto  max-w-[214px]   text-[#111029] font-[Poppins] font-normal   text-xs sm:text-[18px] leading-8 ' >Support from world-renowned companies</p>
+                            <p className='mt-5 mx-auto  max-w-[214px]   text-[#111029] font-[Poppins] font-normal   text-xs sm:text-[18px] leading-8 ' >Support from world-renowned companies</p>
 
                         </div>
                     </div>
